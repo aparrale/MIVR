@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7628,7 +7628,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1066974859}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.4, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7656,19 +7656,27 @@ MonoBehaviour:
       m_Type: 0
       m_ExpectedControlType: Vector3
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_Id: 7616c8e8-baa7-45da-ba29-8e78cffdf857
 =======
       m_Id: 10b9379c-78e0-4e3a-9b96-8b3141c0019b
 >>>>>>> 2523af68b0273c56b2dc1ac281bea5fe92be2f80
+=======
+      m_Id: 
+>>>>>>> parent of 5dc293ce (vr setup)
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings:
       - m_Name: 
 <<<<<<< HEAD
+<<<<<<< HEAD
         m_Id: 76cbdd52-e09c-4512-b667-8f6af09dffcd
 =======
         m_Id: c982eb64-faa8-43ca-a246-14ce61508805
 >>>>>>> 2523af68b0273c56b2dc1ac281bea5fe92be2f80
+=======
+        m_Id: 
+>>>>>>> parent of 5dc293ce (vr setup)
         m_Path: <XRHMD>/centerEyePosition
         m_Interactions: 
         m_Processors: 
@@ -7692,19 +7700,27 @@ MonoBehaviour:
       m_Type: 0
       m_ExpectedControlType: Quaternion
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_Id: 4a07dc77-abc0-4597-9d74-7999294cf22f
 =======
       m_Id: ed1e0d52-ef81-4034-9423-79fa977d7c8d
 >>>>>>> 2523af68b0273c56b2dc1ac281bea5fe92be2f80
+=======
+      m_Id: 
+>>>>>>> parent of 5dc293ce (vr setup)
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings:
       - m_Name: 
 <<<<<<< HEAD
+<<<<<<< HEAD
         m_Id: c3115678-9520-4b4b-88a2-a878f6a8e594
 =======
         m_Id: 6bf139c2-4288-4f51-9935-2a763765f0f1
 >>>>>>> 2523af68b0273c56b2dc1ac281bea5fe92be2f80
+=======
+        m_Id: 
+>>>>>>> parent of 5dc293ce (vr setup)
         m_Path: <XRHMD>/centerEyeRotation
         m_Interactions: 
         m_Processors: 

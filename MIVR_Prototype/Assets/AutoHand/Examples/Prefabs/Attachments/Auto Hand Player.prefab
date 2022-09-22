@@ -96,7 +96,7 @@ MonoBehaviour:
   crouching: 0
   crouchHeight: 0.6
   autoAdjustColliderHeight: 1
-  minMaxHeight: {x: 0.5, y: 2.5}
+  minMaxHeight: {x: 0.5, y: 3}
   useHeadCollision: 1
   headRadius: 0.15
   useGrounding: 1

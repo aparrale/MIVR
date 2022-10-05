@@ -17,9 +17,9 @@ public class capacityScript : MonoBehaviour
         capacityBar.fillAmount = amount;
     }
 
-    public void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
-     Debug.Log("Trigger");   
+     Debug.Log("Trigger" + ItemWeight.Mass);   
     }
 
 }

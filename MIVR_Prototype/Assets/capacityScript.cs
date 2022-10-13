@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class capacityScript : MonoBehaviour 
 {
     public Image capacityBar; // iniitialize public var
-    private ItemWeight itemWeight;
+    private ItemWeight itemWeight; //initialize class script
 
     void setFill(float amount) //set fill amount to 0 
     {
@@ -22,7 +22,14 @@ public class capacityScript : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         itemWeight = other.GetComponent<ItemWeight>();
-     Debug.Log("Trigger" + itemWeight.Mass);   
+     Debug.Log("Trigger" + itemWeight.Mass);
+            
+         capacityBar.fillAmount += itemWeight.Mass;
     }
+
+    //private void AddWeight (float amount)
+    //{
+        //capacityBar.fillAmount += itmeWeight.Mass;
+    //}
 
 }

@@ -27,4 +27,11 @@ public class capacityScript : MonoBehaviour
          capacityBar.fillAmount += itemWeight.Mass; // fill the bar by the amount of mass
     }
 
+    private void OnTriggerExit(Collider other)
+    {
+        itemWeight = other.GetComponent<ItemWeight>();
+        Debug.Log("Trigger" + itemWeight.Mass);
+        capacityBar.fillAmount -= itemWeight.Mass;
+    }
+
 }

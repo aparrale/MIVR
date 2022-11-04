@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2022.4
     height: 1024.8
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 19
+  controlID: 77
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 20
+  controlID: 78
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 21
+  controlID: 79
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -375,22 +375,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\AParr\OneDrive\Documents\Unity Games\MIVR\MIVR_Prototype
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 145.80023}
-    m_SelectedIDs: aacd0000
-    m_LastClickedID: 52650
-    m_ExpandedIDs: 0000000074cd000000ca9a3b
+    scrollPos: {x: 0, y: 170.99994}
+    m_SelectedIDs: 70cd0000
+    m_LastClickedID: 52592
+    m_ExpandedIDs: 0000000036cd000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -418,7 +418,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000074cd0000
+    m_ExpandedIDs: 0000000036cd0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -509,7 +509,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 275.2
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -545,10 +545,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 68460100
-      m_LastClickedID: 83560
-      m_ExpandedIDs: 50e3feff5e40ffff609dffff2efbffff9c450100
+      scrollPos: {x: 0, y: 8630.2}
+      m_SelectedIDs: d27b0000
+      m_LastClickedID: 31698
+      m_ExpandedIDs: 2efbffffbe690000d46d00005275000078750000cc790000d27b0000028b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -605,8 +605,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -101, y: -26}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: -100, y: -25.599976}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -797,9 +797,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 47.624424, y: 1.7750001, z: 24.421272}
+    m_Target: {x: 47.587196, y: 0.8830799, z: 26.981956}
     speed: 2
-    m_Value: {x: 47.624424, y: 1.7750001, z: 24.421272}
+    m_Value: {x: 47.587196, y: 0.8830799, z: 26.981956}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -846,13 +846,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.21367668, y: 0.17737672, z: -0.03937095, w: 0.959965}
+    m_Target: {x: 0.14521155, y: -0.14374128, z: 0.021408604, w: 0.9787774}
     speed: 2
-    m_Value: {x: -0.21367668, y: -0.17737672, z: 0.03937095, w: -0.95996505}
+    m_Value: {x: 0.1451962, y: -0.14372608, z: 0.021406341, w: 0.97867393}
   m_Size:
-    m_Target: 0.5493195
+    m_Target: 1.7917224
     speed: 2
-    m_Value: 0.5497318
+    m_Value: 1.7917224
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -870,7 +870,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
+  m_LastSceneViewRotation: {x: 0.11711534, y: -0.30976683, z: 0.03854844, w: 0.9428965}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -968,7 +968,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1

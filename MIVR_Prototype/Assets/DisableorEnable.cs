@@ -5,11 +5,13 @@ using UnityEngine;
 public class DisableorEnable : MonoBehaviour
 {
     public GameObject canvas;
+    public GameObject playerspeed;
 
     public void whenButtonclicked()
     {
         if (canvas.activeInHierarchy == true)
             canvas.SetActive(false);
+
         else
             canvas.SetActive(true);
     }

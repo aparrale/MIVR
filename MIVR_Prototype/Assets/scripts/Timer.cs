@@ -7,6 +7,7 @@ public class Timer : MonoBehaviour
 {
     public float timeValue = 90;
     public Text timeText;
+    public Color newColor;
 
     // Update is called once per frame
     void Update()
@@ -34,5 +35,10 @@ public class Timer : MonoBehaviour
         float seconds = Mathf.FloorToInt(timeToDisplay % 60);
 
         timeText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+        
+        if (timeValue <= 30)
+        {
+            timeText.color = newColor;
+        }
     }
 }

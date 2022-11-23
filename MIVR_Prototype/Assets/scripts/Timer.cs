@@ -38,7 +38,7 @@ public class Timer : MonoBehaviour
         
         if (timeValue <= 30)
         {
-            timeText.color = newColor;
+            timeText.color = Color.red;
         }
     }
 }

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 3a8fad4d4d13c3743bd14cfd33577e1a
+=======
+guid: 1411ad34cddd5154fbff788a03552579
+>>>>>>> parent of bb7e8e4a (updating game 2 & fixing menu)
 DefaultImporter:
   externalObjects: {}
   userData: 

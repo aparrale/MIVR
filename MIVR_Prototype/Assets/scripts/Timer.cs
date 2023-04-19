@@ -7,7 +7,11 @@ public class Timer : MonoBehaviour
 {
     public float timeValue = 90;
     public Text timeText;
-    public Color newColor;
+    public Color Color1;
+    public Color Color2;
+    public float transitionspeed;
+    public float colorchangetime;
+
 
     // Update is called once per frame
     void Update()
@@ -36,9 +40,12 @@ public class Timer : MonoBehaviour
 
         timeText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
         
-        if (timeValue <= 30)
+        if (timeValue <= colorchangetime)
         {
-            timeText.color = Color.red;
+            timeText.color = Lerp(Color1, Color2, transitionspeed);
         }
     }
+
+    public Color Lerp(Color firstColor, Color secondColor, float speed) => Color.Lerp(firstColor, secondColor, Mathf.Sin(Time.time * speed));
+
 }

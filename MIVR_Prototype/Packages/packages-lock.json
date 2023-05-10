@@ -59,6 +59,7 @@
       },
       "url": "https://packages.unity.com"
     },
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 =======
     "com.unity.mathematics": {
@@ -68,6 +69,8 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+=======
+>>>>>>> Stashed changes
     "com.unity.nuget.newtonsoft-json": {
       "version": "3.0.2",
       "depth": 2,
@@ -75,6 +78,7 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+<<<<<<< Updated upstream
     "com.unity.render-pipelines.core": {
       "version": "12.1.8",
       "depth": 1,
@@ -86,6 +90,8 @@
       }
     },
 >>>>>>> parent of bb7e8e4a (updating game 2 & fixing menu)
+=======
+>>>>>>> Stashed changes
     "com.unity.render-pipelines.universal": {
       "version": "12.1.8",
       "depth": 0,
@@ -105,15 +111,21 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.services.core": {
+<<<<<<< Updated upstream
 <<<<<<< HEAD
       "version": "1.0.1",
 =======
       "version": "1.6.0",
 >>>>>>> parent of bb7e8e4a (updating game 2 & fixing menu)
+=======
+      "version": "1.4.2",
+>>>>>>> Stashed changes
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.modules.unitywebrequest": "1.0.0"
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.modules.androidjni": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -127,10 +139,12 @@
       }
     },
     "com.unity.subsystemregistration": {
-      "version": "1.0.6",
+      "version": "1.1.0",
       "depth": 1,
       "source": "registry",
-      "dependencies": {},
+      "dependencies": {
+        "com.unity.modules.subsystems": "1.0.0"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
